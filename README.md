@@ -32,7 +32,7 @@ Deployment
 # Run a temporary node in development mode
 ./target/release/node-template --dev --tmp
 
-#Run for frontend 
+#Run for frontend :-
 yarn start
 
 
