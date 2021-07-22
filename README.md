@@ -28,6 +28,9 @@ rustup update
 rustup update nightly
 rustup target add wasm32-unknown-unknown --toolchain nightly
 
+#Add pallet
+git clone -b v3.0.0 --depth 1 https://github.com/substrate-developer-hub/substrate-pallet-template test-pallet
+
 Deployment
 # Run a temporary node in development mode
 ./target/release/node-template --dev --tmp
